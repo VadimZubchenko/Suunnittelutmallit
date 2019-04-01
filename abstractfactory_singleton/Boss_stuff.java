@@ -13,7 +13,7 @@ public class Boss_stuff extends Kaappi {
 
     public static int counter = 0;
     // luodaan private muuttaja, joka sisältää Boss_stuff tyyppisen tuleva objekti
-    static private volatile Boss_stuff instance;
+    static private volatile Boss_stuff instance = null;
 
     // private konstruktori, jolla luodaan luokan ilmentymän, mutta sitä ei voi käyttää luokan ulkopuolella
     private Boss_stuff() {

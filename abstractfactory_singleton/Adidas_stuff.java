@@ -13,7 +13,7 @@ public class Adidas_stuff extends Kaappi {
     // muuttuja, joka sisältää ilmentymän luomisen määrää
     public static int counter = 0;
     // luodaan muuttaja, joka sisältää Adidas_stuff tyyppisen tuleva objekti
-    static private volatile Adidas_stuff instance;
+    static private volatile Adidas_stuff instance = null;
 
     // private konstruktori, jolla luodaan luokan ilmentymän, mutta sitä ei voi käyttää luokan ulkopuolella
     private Adidas_stuff() {
