@@ -16,7 +16,7 @@ public class Tempate_method {
      */
     public static void main(String[] args) {
         Game arvaNumero = new ArvaNumero();
-        arvaNumero.playOneGame(5);
+        arvaNumero.playOneGame(2);
     }
     
 }
