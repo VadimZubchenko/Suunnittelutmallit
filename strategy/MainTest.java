@@ -22,12 +22,12 @@ public class MainTest {
         for (int i = 0; i < 9; i++) {
             list.add(Integer.toString(i));
         }
-
+        checklist.setList(list);
         System.out.println("Jokaisen alkion jälkeen:");
         checklist.setListConverter(new JokaisenJalkeen());
         System.out.println(checklist);
 
-        checklist.setList(list);
+        
         System.out.println("Joka toisen alkion jälkeen:");
         checklist.setListConverter(new ToisenJalkeen());
         System.out.println(checklist);
