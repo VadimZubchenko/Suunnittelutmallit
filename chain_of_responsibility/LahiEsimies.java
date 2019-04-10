@@ -11,6 +11,7 @@ package chain_of_responsibility;
  */
 class LahiEsimies extends Palkankorotus_abstract {
     
+    // tämä tulee Palkankorotus_abstract luokaan getAlloewable arvoksi
     protected double getAllowable(){
         return BASE-2;
     }

@@ -21,13 +21,12 @@ public class CheckAuthority {
         director.setSuccessor(president);
         
 
-        // Press Ctrl+C to end.
         try {
             while (true) {
                 System.out.println("Kunka monta prosentia palkankorotusta pyydetään?");
                 System.out.print(">");
                 double d = Double.parseDouble(new BufferedReader(new InputStreamReader(System.in)).readLine());
-                manager.processRequest(new KorotusRequest(d, "General"));
+                manager.processRequest(new KorotusRequest(d));
            }
         } catch(Exception e) {
             System.exit(1);

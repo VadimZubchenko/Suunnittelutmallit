@@ -11,7 +11,7 @@ package chain_of_responsibility;
  */
 public class ToimitusJohtaja extends Palkankorotus_abstract{
      
-    
+    // tämä tulee Palkankorotus_abstract luokaan getAlloewable arvoksi
     protected double getAllowable(){
         return BASE+5;
     }

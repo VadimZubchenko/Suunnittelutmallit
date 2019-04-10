@@ -11,11 +11,11 @@ package chain_of_responsibility;
  */
 class KorotusRequest {
     private double amount;
-    private String purpose;
+    
 
-    public KorotusRequest(double amount, String purpose) {
+    public KorotusRequest(double amount) {
         this.amount = amount;
-        this.purpose = purpose;
+        
     }
 
     public double getAmount() {
@@ -25,10 +25,4 @@ class KorotusRequest {
         amount = amt;
     }
 
-    public String getPurpose() {
-        return purpose;
-    }
-    public void setPurpose(String reason) {
-        purpose = reason;
-    }
 }
