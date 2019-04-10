@@ -14,8 +14,8 @@ import java.io.InputStreamReader;
  */
 public class CheckAuthority {
     public static void main(String[] args) {
-        Lahimies manager = new Lahimies();
-        YksikonPaalikko director = new YksikonPaalikko();
+        LahiEsimies manager = new LahiEsimies();
+        YksikonPaallikko director = new YksikonPaallikko();
         ToimitusJohtaja president = new ToimitusJohtaja();
         manager.setSuccessor(director);
         director.setSuccessor(president);

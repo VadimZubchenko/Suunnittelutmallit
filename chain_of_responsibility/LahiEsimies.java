@@ -9,14 +9,13 @@ package chain_of_responsibility;
  *
  * @author vadimzubchenko
  */
-public class ToimitusJohtaja extends Palkankorotus_abstract{
-     
+class LahiEsimies extends Palkankorotus_abstract {
     
     protected double getAllowable(){
-        return BASE+5;
+        return BASE-2;
     }
 
     protected String getRole(){
-        return "Toimitusjohtaja";
+        return "Lähiesimies";
     }
 }

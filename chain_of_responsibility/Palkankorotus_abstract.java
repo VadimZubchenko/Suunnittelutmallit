@@ -27,7 +27,7 @@ public abstract class Palkankorotus_abstract {
         } else if (successor != null) {
             successor.processRequest(request);
         } else {
-            System.out.println(this.getRole() + ": Ei missään nimissä hyväksyin % " + request.getAmount());
+            System.out.println(this.getRole() + ": Ei missään nimissä hyväksyisin % " + request.getAmount());
         }
     }
 }
