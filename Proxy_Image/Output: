@@ -1,0 +1,22 @@
+run:
+Foto's name: [001_Kesä.jpg, 002_Talvi.jpg, 003_Kevät.jpg, 004_Syksy.jpg, 005_Meriranta.jpg, 006_Mökki.jpg]
+
+Valitse kuva 1...6: 
+2
+Loading foto: 002_Talvi.jpg
+Displaying foto: 002_Talvi.jpg
+
+Valitse kuva 1...6: 
+3
+Loading foto: 003_Kevät.jpg
+Displaying foto: 003_Kevät.jpg
+
+Valitse kuva 1...6: 
+6
+Loading foto: 006_Mökki.jpg
+Displaying foto: 006_Mökki.jpg
+
+Valitse kuva 1...6: 
+7
+Kuva ei löydy
+BUILD SUCCESSFUL (total time: 18 seconds)
