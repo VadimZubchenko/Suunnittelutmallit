@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package builder;
+package Builder;
 
 import java.util.ArrayList;
 
@@ -21,10 +21,10 @@ public class Hampurilainen extends BurgerBuilder {
         this.burger = new Burger();
         
         hampuri = new ArrayList<String>();
-        hampuri.add("Hampurilaissämpylä");
-        hampuri.add("Kuivasipuli");
-        hampuri.add("Naudanlihapihvi");
-        hampuri.add("sämpylä");
+        hampuri.add("hampurilaissämpylä");
+        hampuri.add("kuivasipuli");
+        hampuri.add("naudanlihapihvi");
+        hampuri.add("suolakurkku");
         
     }
     

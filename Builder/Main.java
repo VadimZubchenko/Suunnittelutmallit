@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package builder;
+package Builder;
 
 /**
  *
@@ -27,6 +27,7 @@ public class Main {
         System.out.println(hesburger.getKerros3());
         System.out.println(hesburger.getKerros4());
         
+        System.out.println("");
         
         BurgerBuilder hampuriBurger = new Hampurilainen();
         
