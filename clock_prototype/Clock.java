@@ -9,7 +9,7 @@ package clock_prototype;
  *
  * @author vadimzubchenko
  */
-public class Clock implements Prototype {
+public class Clock implements Cloneable {
 
     private Viisari hour, minute, second;
     private String clock;

@@ -9,7 +9,7 @@ package clock_prototype;
  *
  * @author vadimzubchenko
  */
-public class Viisari implements Prototype{
+public class Viisari {
 
     private int aika;
 
