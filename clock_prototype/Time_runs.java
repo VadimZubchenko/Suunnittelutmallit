@@ -31,17 +31,22 @@ public class Time_runs implements Runnable {
                 e.printStackTrace();
             }
 
-            if (count == 2) {
-                System.out.println("Clock has been restarted: \n");
-                clock.setAika(0, 0, 0);
-
-            } else if (count == 4) {
-                System.out.println("Clone has been restarted: \n");
-                clone.setAika(0, 0, 0);
-            } else if (count == 6) {
-                System.out.println("Clock & clone has been synchronized: \n");
-                clock.setAika(0, 0, 6);
-                clone.setAika(0, 0, 6);
+            switch (count) {
+                case 2:
+                    System.out.println("Clock has been restarted: \n");
+                    clock.setAika(0, 0, 0);
+                    break;
+                case 4:
+                    System.out.println("Clone has been restarted: \n");
+                    clone.setAika(0, 0, 0);
+                    break;
+                case 6:
+                    System.out.println("Clock & clone has been synchronized: \n");
+                    clock.setAika(0, 0, 6);
+                    clone.setAika(0, 0, 6);
+                    break;
+                default:
+                    break;
             }
             count++;
 
