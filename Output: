@@ -1,0 +1,44 @@
+run:
+Clock: 0:0:0
+
+Clone: 0:0:0
+
+Clock: 0:0:1
+
+Clone: 0:0:1
+
+Clock: 0:0:2
+
+Clone: 0:0:2
+
+Clock has been restarted: 
+
+Clock: 0:0:0
+
+Clone: 0:0:3
+
+Clock: 0:0:1
+
+Clone: 0:0:4
+
+Clone has been restarted: 
+
+Clock: 0:0:2
+
+Clone: 0:0:0
+
+Clock: 0:0:3
+
+Clone: 0:0:1
+
+Clock & clone has been synchronized: 
+
+Clock: 0:0:6
+
+Clone: 0:0:6
+
+Clock: 0:0:7
+
+Clone: 0:0:7
+
+BUILD SUCCESSFUL (total time: 9 seconds)
